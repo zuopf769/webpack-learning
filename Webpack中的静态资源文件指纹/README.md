@@ -1,5 +1,11 @@
 ## Webpack中的静态资源文件指纹
 
+> [左鹏飞](https://github.com/zuopf769)  2017.09.30
+
+
+本文讲解了在webpack中如何给静态资源加hash值：每次构建过程都会生成一个新的hash，所以一般用于做版本控制；chunkhash是基于内容生成的，但是webpack把所有类型的文件都以js为汇聚点打成一个bundle，改了css也会导致整个js的hash发生改变，所以最好通过ExtractTextWebpackPlugin把css独立抽取出来；chunkhash只能用于动态导入的chunk,这样每次build入口静态导入的文件还是会生成新的hash,所以还需要webpack-md5-hash插件来完善该功能。
+
+
 ### 1. 如何添加文件名添加指纹
 
 文件的hash指纹是前端静态资源实现增量更新最常用的方案。
