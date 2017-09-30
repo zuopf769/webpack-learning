@@ -136,7 +136,7 @@ import(/* webpackChunkName: "lodash" */ 'lodash').then(function(_) {
 
 build的结果：
 
-![]()
+![](https://github.com/zuopf769/webpack-learning/blob/master/Webpack%E4%B8%AD%E7%9A%84%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E6%8C%87%E7%BA%B9/images/3.png)
 
 每个文件的hash指纹都不相同，上线后无改动的文件不会失去缓存。
 
