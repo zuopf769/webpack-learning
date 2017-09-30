@@ -94,13 +94,13 @@ output: {
 
 第一次build的结果：
 
-![]()
+![](https://github.com/zuopf769/webpack-learning/blob/master/Webpack%E4%B8%AD%E7%9A%84%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E6%8C%87%E7%BA%B9/images/1.png)
 
 > 所有的文件名都会使用相同的hash指纹
 
 第二次build的结果
 
-![]()
+![](https://github.com/zuopf769/webpack-learning/blob/master/Webpack%E4%B8%AD%E7%9A%84%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E6%8C%87%E7%BA%B9/images/2.png)
 
 > 2个js文件任何一个改动都会影响另外1个文件的最终文件名。上线后，另外1个文件的浏览器缓存也全部失效。这肯定不是我们想要的结果。
 
