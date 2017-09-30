@@ -45,7 +45,7 @@ chunkhash的解释是：`Using hashes based on each chunks' content`; 翻译过�
 
 chunk在Webpack中的含义，简单讲就是模块。
 
-> + chunk的解释还是在[1.0的文档](chunk](http://webpack.github.io/docs/code-splitting.html)中能更深刻的理解。
+> + chunk的解释还是在[1.0的文档][chunk](http://webpack.github.io/docs/code-splitting.html)中能更深刻的理解。
 
 > + `output.chunkFilename`决定了非入口(non-entry) chunk 文件的名称。 从这句话中也可以看出来chunk就是模块；只不过模块又分入口chunk文件和按需动态加载的chunk。
 
